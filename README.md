@@ -25,47 +25,6 @@ The main objective of this project is to understand customer purchasing patterns
 
 ---
 
-## Project Workflow
-
-### 1. Data Collection
-- Imported customer shopping behavior dataset in CSV format.
-
-### 2. Data Cleaning & Preprocessing
-Performed preprocessing tasks such as:
-- Handling missing values
-- Renaming columns
-- Feature engineering
-- Converting categorical values
-- Removing redundant columns
-
-### 3. Feature Engineering
-Created additional features like:
-- `age_group`
-- `purchase_frequency_days`
-
-### 4. SQL Database Integration
-- Connected Python with MySQL using SQLAlchemy.
-- Uploaded cleaned dataset into MySQL database.
-
-### 5. SQL Analysis
-Performed business-related SQL analysis including:
-- Revenue analysis
-- Customer spending analysis
-- Product category analysis
-- Subscription impact analysis
-- Discount effectiveness
-- Customer segmentation
-
-### 6. Power BI Dashboard
-Built interactive dashboards to visualize:
-- Revenue trends
-- Customer behavior
-- Product performance
-- Seasonal trends
-- Customer insights
-
----
-
 ## Project Structure
 
 ```bash
@@ -89,7 +48,7 @@ Customer-Shopping-Behavior-Analysis/
 ├── README.md
 │
 └── requirements.txt
-
+```
 
 ## Key Insights
 
